@@ -1,0 +1,16 @@
+body
+  height: 100vh
+  @include display(flex)
+  @include justify-content(center)
+  @include align-items(center)
+
+  .RGB
+    @include display(flex)
+
+    span
+      text-shadow: 10px 10px 0px rgba(#333, 0.5)
+      color: white
+      cursor: pointer
+      font-weight: bold
+      font-family: monospace, sans-serif
+      font-size: 30vw
